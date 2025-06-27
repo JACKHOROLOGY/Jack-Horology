@@ -111,7 +111,10 @@
     <h2>Our Collections</h2>
     <div class="products">
       <div class="product">
-        <img src="images/mens-watch.jpg" alt="Men's Watch">
+        <img src="images/![imag manjpg7](https://github.com/user-attachments/assets/84f8e5de-d891-4022-92d2-e23598600d37)
+![Uploading imag.manjpg7.jpg…]()
+![Uploading imag.manjpg7.jpg…]()
+" alt="Men's Watch">
         <h3>Men's Watches</h3>
         <p>Bold, sleek, and made to impress.</p>
       </div>
