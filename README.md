@@ -53,20 +53,21 @@
     .section h2 {
       margin-bottom: 1rem;
     }
-    .products, .gallery {
+    .products, .gallery, .mens-watches {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 2rem;
     }
-    .product, .gallery img {
+    .product, .gallery img, .watch-card {
       background-color: white;
       border-radius: 10px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       max-width: 300px;
       padding: 1rem;
+      text-align: left;
     }
-    .product img, .gallery img {
+    .product img, .gallery img, .watch-card img {
       max-width: 100%;
       border-radius: 10px;
     }
@@ -102,6 +103,7 @@
 
   <nav>
     <a href="#collections">Collections</a>
+    <a href="#men">Men</a>
     <a href="#gallery">Gallery</a>
     <a href="#faq">FAQ</a>
     <a href="#contact">Contact</a>
@@ -111,10 +113,7 @@
     <h2>Our Collections</h2>
     <div class="products">
       <div class="product">
-        <img src="images/![imag manjpg7](https://github.com/user-attachments/assets/84f8e5de-d891-4022-92d2-e23598600d37)
-![Uploading imag.manjpg7.jpg…]()
-![Uploading imag.manjpg7.jpg…]()
-" alt="Men's Watch">
+        <img src="images/mens-watch.jpg" alt="Men's Watch">
         <h3>Men's Watches</h3>
         <p>Bold, sleek, and made to impress.</p>
       </div>
@@ -127,6 +126,31 @@
         <img src="images/couple-watch.jpg" alt="Couple Watch">
         <h3>Couple Sets</h3>
         <p>Timeless pieces for timeless love.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="men">
+    <h2>Men's Watches</h2>
+    <div class="mens-watches">
+      <div class="watch-card">
+        <img src="images/armani-modern-automatic.jpg" alt="Armani Modern Automatic">
+        <h3>ARMANI 🔥</h3>
+        <p><strong>Model:</strong> Modern Automatic<br>
+        <strong>Dial Size:</strong> 44mm<br>
+        <strong>Features:</strong></p>
+        <ul>
+          <li>Working 24 Hour Analog</li>
+          <li>Stainless Steel Case</li>
+          <li>22 mm Metal Strap</li>
+          <li>Transparent Front & Back</li>
+          <li>Pendulum Rotate Charging</li>
+          <li>Fully Automatic Self-Wind Mechanism</li>
+          <li>IGP Colour Coating – No Fading, No Rusting</li>
+          <li>100% Satisfaction Guaranteed</li>
+          <li>Available Colours: Rose Gold, Silver, Black</li>
+        </ul>
+        <p><strong>Price:</strong> ₹1800/-</p>
       </div>
     </div>
   </section>
@@ -169,3 +193,4 @@
   </footer>
 </body>
 </html>
+
