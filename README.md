@@ -3,120 +3,116 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jack Horology</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <title>G-SHOCK Watch Showcase</title>
   <style>
     body {
-      margin: 0;
-      font-family: 'Montserrat', sans-serif;
-      background-color: #0e0e0e;
-      color: #f5f5f5;
-    }
-    header {
-      background-color: #000;
-      padding: 20px;
-      text-align: center;
-      border-bottom: 2px solid gold;
-    }
-    header img {
-      max-height: 80px;
-    }
-    h1, h2 {
-      color: gold;
-    }
-    .tagline {
-      font-size: 1.2rem;
-      color: #ccc;
-      margin-bottom: 40px;
-    }
-    .section {
-      padding: 40px 20px;
-      text-align: center;
-    }
-    .products {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 30px;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
       padding: 20px;
     }
-    .product {
-      background: #1a1a1a;
-      border: 1px solid #333;
-      padding: 20px;
+    .product-card {
+      background: white;
       border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      margin: auto;
+      padding: 20px;
     }
-    .product img {
-      max-width: 100%;
-      border-radius: 10px;
+    .main-image {
+      width: 100%;
+      border-radius: 8px;
     }
-    .product h3 {
-      color: gold;
-      margin-top: 15px;
-    }
-    .product p {
-      font-size: 0.9rem;
-      color: #ccc;
-    }
-    .price {
-      color: #00ffae;
-      font-weight: bold;
+    .thumbnail-container {
+      display: flex;
+      justify-content: space-between;
       margin-top: 10px;
     }
-    footer {
-      background: #000;
-      color: #888;
-      padding: 20px;
-      text-align: center;
+    .thumbnail-container img {
+      width: 30%;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      cursor: pointer;
     }
-    .btn {
-      background-color: gold;
-      color: #000;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 8px;
-      display: inline-block;
+    .info {
       margin-top: 15px;
+    }
+    .info h2 {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+    .ratings {
+      color: #388e3c;
+      font-weight: bold;
+    }
+    .price {
+      margin-top: 10px;
+    }
+    .price del {
+      color: gray;
+    }
+    .price span.discount {
+      color: #d32f2f;
+      font-weight: bold;
+    }
+    .variant-label {
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    .buttons button {
+      flex: 1;
+      padding: 10px;
+      margin: 0 5px;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .buy-now {
+      background: #ffb300;
+    }
+    .add-to-cart {
+      background: #1976d2;
+    }
+    .badge {
+      background: #7b1fa2;
+      color: white;
+      display: inline-block;
+      padding: 3px 8px;
+      font-size: 12px;
+      border-radius: 5px;
+      margin-top: 5px;
     }
   </style>
 </head>
 <body>
-  <header>
-    <img src="JACK HOROLOGY.LOGO.jpg" alt="Jack Horology Logo">
-  </header>
-
-  <div class="section">
-    <h1>Jack Horology</h1>
-    <p class="tagline">Premium first-copy watches starting at ₹1500. Luxury in every tick.</p>
-    <a href="#men" class="btn">Shop Men's Collection</a>
-  </div>
-
-  <div class="section" id="men">
-    <h2>Men's Collection</h2>
-    <div class="products">
-      <div class="product">
-        <img src="IMG-20250628-WA0042.jpg" alt="Armani Watch" />
-        <h3>Emporio Armani – Modern Automatic</h3>
-        <p>Automatic, Transparent Dial, Stainless Steel, Self-Winding.<br>Colors: Rose Gold, Silver, Black</p>
-        <p class="price">₹2,499</p>
+  <div class="product-card">
+    <img class="main-image" src="main-gshock.jpg" alt="G-SHOCK Watch" />
+    <div class="thumbnail-container">
+      <img src="gshock-black.jpg" alt="Black Dial" />
+      <img src="gshock-blue.jpg" alt="Blue Dial" />
+      <img src="gshock-metal.jpg" alt="Metallic Dial" />
+    </div>
+    <div class="info">
+      <h2>G-SHOCK Metal Watch</h2>
+      <div class="ratings">4.7 ★ | 12,500 ratings</div>
+      <div class="badge">Hot Deal</div>
+      <div class="price">
+        <span><del>₹12,999</del> <strong>₹7,499</strong></span>
+        <span class="discount">(42% OFF)</span>
       </div>
-      <div class="product">
-        <img src="IMG-20250628-WA0076.jpg" alt="G-Shock Watch" />
-        <h3>G-Shock – Premium 7AAA</h3>
-        <p>Shockproof, Digital Display, Metal Strap, World Time, Stopwatch.<br><strong>🔥 Best Seller</strong></p>
-        <p class="price">₹2,499</p>
-      </div>
+      <div class="variant-label">Strap Color: Silver / Black</div>
+      <div class="variant-label">Dial Color: Black / Blue</div>
+    </div>
+    <div class="buttons">
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
     </div>
   </div>
-
-  <div class="section">
-    <h2>Contact Us</h2>
-    <p>Email: jackhorology@gmail.com</p>
-    <p>Instagram: <a href="https://instagram.com/jackhorology" style="color: gold;">@jackhorology</a></p>
-    <p>Payment Methods: Cash on Delivery ✅ | Online Payment ✅</p>
-  </div>
-
-  <footer>
-    &copy; 2025 Jack Horology. All rights reserved.
-  </footer>
 </body>
 </html>
